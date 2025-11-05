@@ -3,7 +3,6 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Learn from "./components/learn/learn";
 import Contact from "./components/contact/CONTACT.JSX";
-import SignIn from "./components/signin/signin";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
           <Route path = "/" element = {<Home/>} />
           <Route path = "/learn" element = {<Learn/>} />
           <Route path = "/contact" element = {<Contact/>} />
-          <Route path = "/signin" element = {<SignIn/>} />
         </Routes>
       </div>
     </div>
